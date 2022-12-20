@@ -1,0 +1,14 @@
+.root{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  .bg-container{
+    flex: 2;
+    background: url("../../assets/images/sign_bg.png") no-repeat;
+    background-size: 100% 100%;
+  }
+  .sign-container{
+    flex: 1;
+    background-color: #fff;
+  }
+}
