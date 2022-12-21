@@ -1,10 +1,10 @@
 import React from "react";
-import SignIn from "./pages/signIn";
+import Routers from "./router";
 
 function App() {
   return (
     <div className="App">
-      <SignIn />
+      <Routers />
     </div>
   );
 }
